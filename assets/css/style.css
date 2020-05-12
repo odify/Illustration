@@ -4,19 +4,19 @@ body{
     display: contents;
     font-family: 'Lato', sans-serif;
 }
-header > nav > ul > li > a{
-    text-decoration: none;
-    color: rgb(92, 92, 92);
-    text-transform: uppercase;
-}
 header > nav > ul{
     text-align: right;
 }
 nav ul li{
     margin-left: 3%;
     display: inline;
-    font-size: 1em;
+    font-size: 0.99em;
     font-family: 'Merriweather', serif;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    text-transform: uppercase;
 }
 #first{
     display: flex;
@@ -39,13 +39,13 @@ nav ul li{
     text-decoration: none;
     border: 1px solid black;
     padding: 12.5px 15px;
-    transition: 0.89s linear;
+    transition: 0.69s ease-in;
     background-color: black;
     color: cornsilk;
 }
 #first article h1{
     font-family: 'Merriweather', serif;
-    font-size: 3.33em;
+    font-size: 3em;
     text-align: left;
 }
 #first img{
@@ -61,14 +61,13 @@ nav ul li{
 #second article{
     font-size: 1.7em;
     font-family: 'Merriweather', serif;
-    font-size: 1.25em;
     text-align: right;
-    margin-top: 10%;
+    margin-top: 7.5%;
     margin-right: 2.5%;
     float: right;
 }
 #second img{
-    width: 42.5%;
+    width: 40%;
     float: left;
     margin-bottom: 5%;
     margin-left: 10%;
@@ -96,7 +95,7 @@ nav ul li{
 }
 #fourth article h1{
 
-    font-size: 2.3em;
+    font-size: 3em;
 }
 .x{
     float: left;
@@ -122,7 +121,8 @@ height: 250vh;
     margin-top: 5%;
 }
 #fifth article h1{
-    font-size: 2.3em;
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
 }
 #fifth img {
     width: 40%;
@@ -140,7 +140,7 @@ height: 250vh;
     
 }
 #sixth article h1{
-    font-size: 2.3em;
+    font-size: 3em;
 }
 .textbox{
     text-align: center;
